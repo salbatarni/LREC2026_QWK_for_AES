@@ -40,7 +40,12 @@ python rq3.py          # Research Question 3
 
 ```
 ├── data/                          # Datasets
-├── results_pickles/               # Experiment results
+├── results_pickles/               # Experiment results for ASAP and ELLIPSE datasets
+  ├── RQ1/                            # Research Question 1 results
+  ├── RQ2_1/                          # Research Question 2.1 results
+  ├── RQ2_2/                          # Research Question 2.2 results
+  └── RQ3/                            # Research Question 3 results
+├── systems_pickles/               # Synthetic systems
 ├── generate_systems.py            # Synthetic system generation
 ├── metrics.py                     # Evaluation metrics implementations
 ├── rq1.py                         # Research Question 1
